@@ -156,8 +156,7 @@ Searchbar
 
 <h3 class="m-portfolioItem-subtitle">Filter</h3>
     <p>
-        Die Filter-Funktion in der Searchbar erlaubt es dem Nutzer, nach bestimmten Kriterien zu filtern. Dabei öffnet sich auf der rechten Seite eine Sidebar. <br>Unter der Searchbar werden vier weitere Buttons angezeigt, welche in einem
-        helleren Ton dargestellt wurden und somit durch den dunkleren Hintergrund mehr zum Vorschein kommen. Der Nutzer kann sich zB. alle Werke auflisten lassen oder aber auch nur die beliebtesten.
+        
     </p>
 
 
