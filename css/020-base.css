@@ -7,31 +7,30 @@ Enthält alle CSS Variabeln und grundlegende Regeln.
 @media (min-width:1281px) { }
 ----------------------------------------------------------------------------*/
 
+
 /* Fonts
 -----------------------------------------------------------------------------*/
 
-@font-face{
-  font-family:PT_Sans;
-  font-style:normal;
-  font-weight:300;
-  src:url('../fonts/PT_Sans/PTSans-Regular.ttf');
+@font-face {
+    font-family: PT_Sans;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/PT_Sans/PTSans-Regular.ttf');
 }
 
-@font-face{
-  font-family:PT_Sans;
-  font-style:normal;
-  font-weight:600;
-  src:url('../fonts/PT_Sans/PTSans-Bold.ttf');
+@font-face {
+    font-family: PT_Sans;
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/PT_Sans/PTSans-Bold.ttf');
 }
 
-@font-face{
-  font-family:PT_Sans_Mono;
-  font-style:normal;
-  font-weight:300;
-  src:url('../fonts/PT_Mono/PTMono-Regular.ttf');
+@font-face {
+    font-family: PT_Sans_Mono;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/PT_Mono/PTMono-Regular.ttf');
 }
-
-
 
 
 /* Variables
@@ -49,54 +48,46 @@ Enthält alle CSS Variabeln und grundlegende Regeln.
     --color-backgrounds: #efefef;
     --color-borders: rgba(0, 0, 0, 0.3);
     --color-button-bg: rgba(0, 0, 0, 0.8);
-    --color-background-dark: rgba(0,0,0,0.7);
-
+    --color-background-dark: rgba(0, 0, 0, 0.7);
     /* Groessen
     ----------------------------------------*/
-    --xxs:  0.25rem;
-    --xs:   0.5rem;
-    --s:    0.75rem;
-    --m:    1.00rem;
-    --l:    1.25rem;
-    --xl:   1.50rem;
-    --xxl:  2.00rem;
+    --xxs: 0.25rem;
+    --xs: 0.5rem;
+    --s: 0.75rem;
+    --m: 1.00rem;
+    --l: 1.25rem;
+    --xl: 1.50rem;
+    --xxl: 2.00rem;
     --xxxl: 3.00rem;
-
     /*
     Schrift
     ----------------------------------------*/
-    --fontsize:     1.00rem;
-    --fontsize-xs:  0.50rem;
-    --fontsize-s:   0.75rem;
-    --fontsize-l:   1.25rem;
-    --fontsize-xl:  1.50rem;
+    --fontsize: 1.00rem;
+    --fontsize-xs: 0.50rem;
+    --fontsize-s: 0.75rem;
+    --fontsize-l: 1.25rem;
+    --fontsize-xl: 1.50rem;
     --fontsize-xxl: 2.00rem;
     --font-family: PT_Sans, Helvetica, Lucida, sans-serif;
-
     --maxwidth-text: 960px;
-    --maxwidth-text-l:1200px;
+    --maxwidth-text-l: 1200px;
 }
-
-
-
-
 
 
 /* Basic Styles & Bahavior
 -----------------------------------------------------------------------------*/
-html{
-  scroll-behavior: smooth;
+
+html {
+    scroll-behavior: smooth;
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
-	html {
-		scroll-behavior: auto;
-	}
+    html {
+        scroll-behavior: auto;
+    }
 }
 
-
 body {
-
     font-size: var(--fontsize);
     color: var(--color-text);
     background-color: var(--color-backgrounds);
@@ -104,15 +95,15 @@ body {
 }
 
 @media only screen and (min-width: 600px) {
-  body{
-    font-size: var(--fontsize-l);
-  }
+    body {
+        font-size: var(--fontsize-l);
+    }
 }
 
 @media only screen and (min-width: 801px) {
-  body{
-    font-size: var(--fontsize);
-  }
+    body {
+        font-size: var(--fontsize);
+    }
 }
 
 li,
@@ -124,79 +115,86 @@ th {
     -webkit-hyphens: auto;
 }
 
+
 /* Headlines
 ----------------------------------------------------------------------------*/
 
 h1 {
-  font-size: var(--fontsize-xxl);
+    font-size: var(--fontsize-xxl);
 }
 
 h2 {
-  font-size: var(--fontsize-xl);
-  color: var(--color-headlines);
-  margin-bottom: var(--xxl);
+    font-size: var(--fontsize-xl);
+    color: var(--color-headlines);
+    margin-bottom: var(--xxl);
 }
 
 h3 {
-  font-size: var(--fontsize-l);
+    font-size: var(--fontsize-l);
 }
 
 h4,
 h5,
 h6 {
-  font-size: var(--fontsize);
-  font-weight: bold;
+    font-size: var(--fontsize);
+    font-weight: bold;
 }
 
-
-h1, h2, h3{
-  font-weight: 300;
+h1,
+h2,
+h3 {
+    font-weight: 300;
 }
 
 h3,
 h4 {
-  color: var(--color-headlines);
+    color: var(--color-headlines);
 }
-
 
 h2+h3,
 h3:first-of-type {
-  padding-top: 0;
+    padding-top: 0;
 }
 
 .title,
 .subtitle {
-  margin-bottom: var(--m);
+    margin-bottom: var(--m);
 }
 
 .title+.subtitle {
-  margin-top: calc(var(--m) * -1); /*calc(var(--xs) - var(--m)); */
+    margin-top: calc(var(--m) * -1);
+    /*calc(var(--xs) - var(--m)); */
 }
+
 
 /* Mengentexte
 ----------------------------------------------------------------------------*/
 
-p, li, td, th{
-  line-height: 130%;
+p,
+li,
+td,
+th {
+    line-height: 130%;
 }
+
 .m-portfolioItemCentered p {
-  line-height: 140%;
+    line-height: 140%;
 }
 
 .is-big {
-  font-size: 115%;
+    font-size: 115%;
 }
 
 
 /* Links
 ----------------------------------------------------------------------------*/
 
-a{
-color: var(--color-accent);
-text-decoration: none;
-display: inline-block;
-border-bottom: dotted 1px var(--color-text-light);
-overflow-wrap: break-word;
-word-wrap: break-word;
-hyphens: auto;
+a {
+    color: var(--color-accent);
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: dotted 1px var(--color-text-light);
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
 }

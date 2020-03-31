@@ -4,15 +4,9 @@ welche Systematik liegt hinter dem Gestaltungskonzept?
 Das Artefakt soll Professionalität ausstrahlen und vertrauensbildend sein.
 
 Screen 1: 
-Durch das Aufrufen des Archives gelangt der User auf diese Seite. Dort kann er mit einer explorativen Suche beginnen. 
-Sobald der User mit der Maus über die kleinen Quadrate geht, öffnen sich Slimcards, welche das Bild und die Jahreszahl eines Werkes präsentieren. 
-Sortiert sind die Felder nach der Anzahl der Veröffentlichungen. Wenn in einem bestimmten Jahr mehrere Werke veröffentlicht wurden, nimmt das Quadrat die Farbe orange an. 
-Wurde an einem Jahr jedoch kein Werk veröffentlicht, bleibt es grau. Somit kann es nicht vorkommen, dass die Suche in die Leere geht. 
+
 
 Screen 2: 
-Entscheidet sich der User für ein Jahr öffnet sich der zweite Screen mit der Timeline. Dort erscheint im Mittelpunkt das Werk für das er sich entschieden hat. 
-Hinter diesem Bild befinden sich dann weitere Bilder, die in dem selben Jahr veröffentlicht wurden.
-Links von der Timeline hat der Nutzer die Möglichkeit sich die Werke der Jahre davor anzuschauen, während auf der rechten Seite neuere Werke gezeigt werden.
 
 
 
@@ -57,28 +51,6 @@ Durch das Platzieren eines Icons in die Mitte des Buttons, wird dem Nutzer klar,
 Searchbar
 Im ersten Schritt besteht die Searchbar aus einer Seachbox. 
 Der Nutzer hat die Möglichkeit sich seinen Suchverlauf anzuschauen. 
-
-Share
-Durch die einfache Darstellung 
-
-Toast
- 
-Design
-Floating Action Button
-Durch den Floating Action Button können sich die Nutzer sowohl ihr eigenes Profil anschauen als auch Einstellungen vornehmen. 
-Dieser Button setzt sich aus einem orangenen Kreis und einem Icon zusammen. Das Icon ist in der Mitte des Buttons platziert und stellt einen „Menschen“ dar. 
-
-Durch die kräftige und dennoch fröhlich und belebende Sekundärfarbe tritt der Button zum Vorschein und ist nicht versteckt. 
-Außerdem liegt der FAB als deutsche Sprachversion vor.
-
-Der Button ist auf eine Größe von 80x80 Pixeln angelegt und der Icon entsprechend auf 20px. 
-Platziert ist er rechts oben, wobei der Abstand zu dem Seitenrand mit den Werten der Fibonacci-Zahlenfolge übereinstimmt. 
-
-Um zu verdeutlichen, dass der Button anklickbar ist, liegt ein Schatten mit einer Weichzeichnung von 4(?) vor.
-Durch einen Klick öffnet sich unterhalb des Buttons ein Rechteckt von 160x280 Pixeln mit den jeweiligen Benutzereinstellungen. 
-
-Abstände beschreiben…  
-
 
 Language
 Der Button für die Sprachauswahl bietet den Nutzern an, zwischen verschiedenen Sprachen zu wählen. Dieser ist links oben mit einer Größe von 90x20 Pixeln platziert. Hierbei sind die Sprachen in der Schrift „IBM Plex Sans“ gesetzt. 
