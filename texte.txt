@@ -1,0 +1,359 @@
+welche Elemente, Screens und Regeln wurden entwickelt?
+wie wurden die Kommunikationsziele umgesetzt?
+welche Systematik liegt hinter dem Gestaltungskonzept?
+Das Artefakt soll Professionalität ausstrahlen und vertrauensbildend sein.
+
+Screen 1: 
+Durch das Aufrufen des Archives gelangt der User auf diese Seite. Dort kann er mit einer explorativen Suche beginnen. 
+Sobald der User mit der Maus über die kleinen Quadrate geht, öffnen sich Slimcards, welche das Bild und die Jahreszahl eines Werkes präsentieren. 
+Sortiert sind die Felder nach der Anzahl der Veröffentlichungen. Wenn in einem bestimmten Jahr mehrere Werke veröffentlicht wurden, nimmt das Quadrat die Farbe orange an. 
+Wurde an einem Jahr jedoch kein Werk veröffentlicht, bleibt es grau. Somit kann es nicht vorkommen, dass die Suche in die Leere geht. 
+
+Screen 2: 
+Entscheidet sich der User für ein Jahr öffnet sich der zweite Screen mit der Timeline. Dort erscheint im Mittelpunkt das Werk für das er sich entschieden hat. 
+Hinter diesem Bild befinden sich dann weitere Bilder, die in dem selben Jahr veröffentlicht wurden.
+Links von der Timeline hat der Nutzer die Möglichkeit sich die Werke der Jahre davor anzuschauen, während auf der rechten Seite neuere Werke gezeigt werden.
+
+
+
+Typographie
+Durch die Verwendung unterschiedlicher Schriftgrößen/Schriftarten soll erkennbar sein, ob es sich um die Überschrift handelt, den Text oder um die Unterschrift.
+Zur Verfügung stehen sechs verschieden Schriftgrößen mit zwei verschiedenen Stärken.  (ÜBERARBEITEN SO IST SCHLECHT)
+
+
+Color
+Bei der Farbwahl ist es besonders wichtig, eine Farbkombination zu finden, die zum Thema passt und die Hierarchie der Webseite verdeutlicht.
+Um die Webseite heiter, freundlich, fröhlich und dazu auch energievoll zu präsentieren, ist es wichtig wärmere Farben zu verwenden. Diese ziehen die Aufmerksamkeit der Benutzer auf sich und sorgen für Neugier. 
+Wichtig ist jedoch, dass man bei größeren Flächen darauf achtet, diese nicht komplett mit einer warmen Farbe zu füllen, da es nämlich schnell ins Gegensätzliche kippen kann und somit keinen positiven Eindruck mehr hinterlässt.  
+
+Card
+Der Einsatz von sogenannten Cards spielt beim Erstellen einer Webseite eine wichtige Rolle. Dabei sollte darauf geachtet werden, dass das Bild in einer Card mehr Fläche einnimmt als der Text oder die Überschrift, um die Aufmerksamkeit der Benutzer auf sich zu ziehen, da diese einen Fixpunkt für das Auge liefern. 
+
+In dem vorliegenden Design erhält die Card eine Interaktionsmöglichkeit wie das favorisieren eines Gemäldes. Wird das Gemälde angeklickt, öffnet sich die dazugehörige Detailansicht mit weiteren Interaktionsmöglichkeiten. 
+Der Schlageschatten unterhalb der Card macht dem Benutzer deutlich, dass sie angeklickt werden kann. 
+
+
+
+
+Icons
+Der Gebrauch der Icons sorgt auf einer Webseite für Orientierung. Dem Nutzer fällt es dadurch leichter sein Ziel zu erreichen. Neben der Orientierung gelingt es zudem, aufgrund der leichten Bedienung, das Vertrauen der Nutzer zu gewinnen. 
+
+Material Design bietet eine große Anzahl an solchen Icons.
+
+Timeline
+Die Timeline, eines der wichtigsten Elemente in solch einem Gestaltungskonzept, sollte leicht verständlich und nachvollziehbar sein. An dieser orientieren sich die Nutzer, um sich die Werke des Archivs anzuschauen. 
+Hierbei wird durch einen Pfeil in die Leserichtung und in die Gegenrichtung klar erkennbar, dass der Zeitstrahl über mehrere Jahre geht. 
+
+Imageroll
+Die eindeutige Anordnung der Cards ermöglicht den Nutzern, sich einen klaren Überblick zu verschaffen. 
+Durch den Größenunterschied der Cards wird schnell erkennbar, wie der Zeitstrahl zu verwenden ist. Dabei ziehen die größeren Cards die Aufmerksamkeit schneller auf sich als die kleineren. 
+
+Die Eigenschaft dieser explorativen Suche verbindet die Suche in die Breite mit der Suche in die Tiefe, wodurch sich der Nutzer frei austoben kann und sich einen groben Überblick über die ganzen Informationen schaffen kann. 
+
+Floating Action Button
+Der Floating Action Button schwebt über der eigentlichen Benutzeroberfläche und bietet, nachdem man es anklickt, verschiedene Benutzereinstellungen an. 
+Durch das Platzieren eines Icons in die Mitte des Buttons, wird dem Nutzer klar, was damit erreicht werden kann. 
+
+Searchbar
+Im ersten Schritt besteht die Searchbar aus einer Seachbox. 
+Der Nutzer hat die Möglichkeit sich seinen Suchverlauf anzuschauen. 
+
+Share
+Durch die einfache Darstellung 
+
+Toast
+ 
+Design
+Floating Action Button
+Durch den Floating Action Button können sich die Nutzer sowohl ihr eigenes Profil anschauen als auch Einstellungen vornehmen. 
+Dieser Button setzt sich aus einem orangenen Kreis und einem Icon zusammen. Das Icon ist in der Mitte des Buttons platziert und stellt einen „Menschen“ dar. 
+
+Durch die kräftige und dennoch fröhlich und belebende Sekundärfarbe tritt der Button zum Vorschein und ist nicht versteckt. 
+Außerdem liegt der FAB als deutsche Sprachversion vor.
+
+Der Button ist auf eine Größe von 80x80 Pixeln angelegt und der Icon entsprechend auf 20px. 
+Platziert ist er rechts oben, wobei der Abstand zu dem Seitenrand mit den Werten der Fibonacci-Zahlenfolge übereinstimmt. 
+
+Um zu verdeutlichen, dass der Button anklickbar ist, liegt ein Schatten mit einer Weichzeichnung von 4(?) vor.
+Durch einen Klick öffnet sich unterhalb des Buttons ein Rechteckt von 160x280 Pixeln mit den jeweiligen Benutzereinstellungen. 
+
+Abstände beschreiben…  
+
+
+Language
+Der Button für die Sprachauswahl bietet den Nutzern an, zwischen verschiedenen Sprachen zu wählen. Dieser ist links oben mit einer Größe von 90x20 Pixeln platziert. Hierbei sind die Sprachen in der Schrift „IBM Plex Sans“ gesetzt. 
+Zur Auswahl stehen die Sprachen Deutsch, Englisch, Französisch und Türkisch. 
+
+Abstände beschreiben...
+
+
+Searchbar
+
+
+
+!-- ContentBlock 50% Bild 50% Text
+<h2 class="m-portfolioItem-title">Homebildschirm</h2>
+<h3 class="m-portfolioItem-subtitle"><br></h3>
+<p>Durch das Aufrufen der Internetseite für das Cranach Archive gelangt der Nutzer auf die Hauptseite des Archives und kann mit einer explorativen Suche beginnen durch die Werke zu stöbern. <br>Durch das Gesetz der Ähnlichkeit und der
+    Nähe, wird der Nutzer die Elemente auf der Hauptseite als zusammengehörig auffassen. Dabei steht jedes einzelne Element für eine Jahreszahl.
+    <br><br> Wie man aus der Legende entnehmen kann, sind die Felder nach der Anzahl der Veröffentlichungen gekennzeichnet. Das heisst, wenn in einem Jahr mehrere Werke veröffentlich wurden, wird das Feld orange markiert. Wurde in
+    einem Jahr jedoch kein Werk veröffentlicht, bleibt es grau. Somit kann es nicht vorkommen, dass die Suche in die Leere geht. (KANN MAN DAS SO SCHREIBEN? NEIN ODER? SAAT 3:23)
+    <br><br> Fährt der Nutzer mit seiner Maus über die Felder, erscheinen Slimcards, welche das Bild und die Jahreszahl eines Werkes enthalten. Da sowohl das Bild, als auch die Jahreszahl von gleicher Wichtigkeit sind, wird die gesamte
+    Fläche in zwei geteilt. Klickt er nun die Card an, erscheint die Timeline. <br><br> Die Sprachauswahl, welche es ermöglicht zwischen Deutsch und Englisch zu wählen, liegt oben rechts im Bild. Dabei nimmt die ausgewählte Sprache,
+    einen weißen Farbton an, um im Vordergrund zu stehen. Anders als die Sprache, die nicht gewählt wurde, diese nimmt einen grauen Ton hat und steht somit im Hintergrund.
+</p>
+
+
+
+
+
+<h3 class="m-portfolioItem-subtitle">Index</h3>
+<p>
+    Durch das Aufrufen der Internetseite für das Cranach Archive gelangt der Nutzer auf die Hauptseite des Archives und kann mit einer explorativen Suche beginnen durch die Werke zu stöbern. <br>Durch das Gesetz der Ähnlichkeit und
+    der Nähe, wird der Nutzer die Elemente auf der Hauptseite als zusammengehörig auffassen. Dabei steht jedes einzelne Element für eine Jahreszahl.
+    <br><br> Wie man aus der Legende entnehmen kann, sind die Felder nach der Anzahl der Veröffentlichungen gekennzeichnet. Das heisst, wenn in einem Jahr mehrere Werke veröffentlich wurden, wird das Feld orange markiert. Wurde in
+    einem Jahr jedoch kein Werk veröffentlicht, bleibt es grau. Somit kann es nicht vorkommen, dass die Suche in die Leere geht. (KANN MAN DAS SO SCHREIBEN? NEIN ODER? SAAT 3:23)
+    <br><br> Fährt der Nutzer mit seiner Maus über die Felder, erscheinen Slimcards, welche das Bild und die Jahreszahl eines Werkes enthalten. Da sowohl das Bild, als auch die Jahreszahl von gleicher Wichtigkeit sind, wird die gesamte
+    Fläche in zwei geteilt. Klickt er nun die Card an, erscheint die Timeline. <br><br> Die Sprachauswahl, welche es ermöglicht zwischen Deutsch und Englisch zu wählen, liegt oben rechts im Bild. Dabei nimmt die ausgewählte Sprache,
+    einen weißen Farbton an, um im Vordergrund zu stehen. Anders als die Sprache, die nicht gewählt wurde, diese nimmt einen grauen Ton hat und steht somit im Hintergrund.
+</p>
+
+
+
+
+
+
+<h2 class="m-portfolioItem-title">Hauptbildschirm</h2>
+<h3 class="m-portfolioItem-subtitle"><br></h3>
+<p>Nachdem der User sich für eine Card entschieden und diese angeklickt hat, gelangt er zu der Timeline. Dabei wird in der Mitte der Timeline das Bild angezeigt, für welches sich der Nutzer entschieden hat. Hinter diesem Bild befinden
+    sich dann weitere Bilder, die in dem selben Jahr veröffentlicht wurden. <br>Links von der Timeline hat der Nutzer die Möglichkeit sich die Werke der vorherigen Jahren anzuschauen, während auf der rechten Seite neuere Werke angezeigt
+    werden.
+    <br><br>
+    Die Timeline befindet sich mit den Cards zusammen auf einem hellgrauen Hintergrund, was dem Betrachter das Gefühl gibt als Einheit aufgefasst zu werden. Dies greift auf das Gesetzt der Geschlossenheit zurück. <br>Ebenso ist das
+    Gesetz der guten Fortsetzung und das Gesetz des gemeinsamen Schicksals zu finden, da die Rollen auf einer durchgehenden Linie angeordnet sind und sich gleichzeitig und gleichförmig in eine Richtung bewegen und somit als Einheit
+    gelten.
+    <br> Die Jahreszahlen auf der Zeitleiste nehmen ihren Wert in 10er Schritten an (KA WIE ICH DAS SCHREIBEN SOLL HELP). Sie liegt in einem dunkleren grauen Ton hervor, und zieht die Aufmerksamkeit der Nutzer auf sich.
+    <br><br>
+    In dem Zeitstrahl befindet sich (DAS GELBE DING), was dem Nutzer hilft, schneller zu anderen Jahren zu gelangen. Dabei wird ihm allerdings auch ein kleinschrittiges swipen durch die Pfeile rechts und links neben der Zeitleiste
+    angeboten.
+    <br><br> Der User hat, beim Anschauen der Cards, die Möglichkeit, ohne in die Detailansicht zu gehen, die Werke zu speichern/zu favorisieren. Zugreifen kann er auf diese, indem er oben rechts unter der Sprachauswahl auf das Icon
+    klickt.
+    <br><br>
+    Die Filter-Funktion in der Searchbar erlaubt es dem Nutzer, nach bestimmten Kriterien zu filtern. Dabei öffnet sich auf der rechten Seite eine Sidebar. <br>Unter der Searchbar werden vier weitere Buttons angezeigt, welche in einem
+    helleren Ton dargestellt wurden und somit durch den dunkleren Hintergrund mehr zum Vorschein kommen. Der Nutzer kann sich zB. alle Werke auflisten lassen oder aber auch nur die beliebtesten.
+    <br><br>
+    Wenn der Nutzer mit der Timeline nicht klarkommen sollte und Fragen auftauchen, ruft dieser durch einen Klick auf den Hilfe-Button eine erneute Seite auf, in der für jeden Schritt eine Erklärung geliefert wird.
+    <br><br>
+    Sollte der User sich für ein anderes Jahr entscheiden wollen, kann dieser ganz leicht durch (DIESE KARTE IN DER MITTE KREIS) zur Hauptseite gelangen.
+
+
+
+
+
+<h3 class="m-portfolioItem-subtitle">Main</h3>
+<p>
+    Nachdem der User sich für eine Card entschieden und diese angeklickt hat, gelangt er zu der Timeline. Dabei wird in der Mitte der Timeline das Bild angezeigt, für welches sich der Nutzer entschieden hat. Hinter diesem Bild befinden sich dann weitere Bilder,
+    die in dem selben Jahr veröffentlicht wurden. <br>Links von der Timeline hat der Nutzer die Möglichkeit sich die Werke der vorherigen Jahren anzuschauen, während auf der rechten Seite neuere Werke angezeigt
+    werden.
+
+</p>
+
+
+
+
+
+<h3 class="m-portfolioItem-subtitle">Die Timeline</h3>
+<p>
+    Die Timeline befindet sich mit den Cards zusammen auf einem hellgrauen Hintergrund, was dem Betrachter das Gefühl gibt als Einheit aufgefasst zu werden. Dies greift auf das Gesetzt der Geschlossenheit zurück. <br>Ebenso ist das
+    Gesetz der guten Fortsetzung und das Gesetz des gemeinsamen Schicksals zu finden, da die Rollen auf einer durchgehenden Linie angeordnet sind und sich gleichzeitig und gleichförmig in eine Richtung bewegen und somit als Einheit
+    gelten.
+</p>
+
+
+
+<h3 class="m-portfolioItem-subtitle">Die Zeitleiste</h3>
+    <p>
+        In dem Zeitstrahl befindet sich (DAS GELBE DING), was dem Nutzer hilft, schneller zu anderen Jahren zu gelangen. Dabei wird ihm allerdings auch ein kleinschrittiges swipen durch die Pfeile rechts und links neben der Zeitleiste angeboten.
+        <br><br> Der User hat, beim Anschauen der Cards, die Möglichkeit, ohne in die Detailansicht zu gehen, die Werke zu speichern/zu favorisieren. Zugreifen kann er auf diese, indem er oben rechts unter der Sprachauswahl auf das Icon
+        klickt.
+        <br><br>Die Zeitleiste liegt in einem dunkleren grauen Ton hervor, und zieht die Aufmerksamkeit der Nutzer auf sich.
+    </p>
+
+
+
+
+<h3 class="m-portfolioItem-subtitle">Filter</h3>
+    <p>
+        Die Filter-Funktion in der Searchbar erlaubt es dem Nutzer, nach bestimmten Kriterien zu filtern. Dabei öffnet sich auf der rechten Seite eine Sidebar. <br>Unter der Searchbar werden vier weitere Buttons angezeigt, welche in einem
+        helleren Ton dargestellt wurden und somit durch den dunkleren Hintergrund mehr zum Vorschein kommen. Der Nutzer kann sich zB. alle Werke auflisten lassen oder aber auch nur die beliebtesten.
+    </p>
+
+
+
+
+<h3 class="m-portfolioItem-subtitle">Hilfe</h3>
+    <p>
+        Wenn der Nutzer mit der Timeline nicht klarkommen sollte und Fragen auftauchen, ruft dieser durch einen Klick auf den Hilfe-Button eine erneute Seite auf, in der für jeden Schritt eine Erklärung geliefert wird.
+    </p>
+
+
+
+
+<h3 class="m-portfolioItem-subtitle">Zurück zur Homeseite</h3>
+    <p>
+        Sollte der User sich für ein anderes Jahr entscheiden wollen, kann dieser ganz leicht durch (DIESE KARTE IN DER MITTE KREIS) zur Hauptseite gelangen.
+    </p>
+
+
+
+
+<h3 class="m-portfolioItem-subtitle">Darkmode</h3>
+    <p>
+        Der Darkmode, der von der Sidebar aus aktiviert werden kann, ist sowohl gut für den Akku des Macbooks als auch für das menschliche Auge. Ein dunkleres Design sorgt für einen geringeren Akkuverlust und einem angenehmeren Lesen im Dunkeln. Nutzern wird
+        es somit leichter fallen den Akku beim Besuch der Seite zu schonen.
+    </p>
+
+
+
+<h2 class="m-portfolioItem-title">Sidebar</h2>
+    <h3 class="m-portfolioItem-subtitle"><br></h3>
+    <p>
+        Die Sidebar auf der linken Seite dient dazu, bestimmte Einstellungen vorzunehmen oder sich die Werke anzuschauen, die man gespeichert hat. Desweiteren kann sich der Nutzer auch seinen Verlauf anschauen.
+
+
+<h2 class="m-portfolioItem-title">Filter</h2>
+    <h3 class="m-portfolioItem-subtitle"><br></h3>
+    <p>
+        Die Filter-Funktion auf der rechten Seite ermöglicht dem Nutzer nach Kriterien zu filtern. Wird ein Filter angeklickt, ändert sich das „+“-Symbol zu einem „-“-Symbol und es werden Unterpunkte angezeigt, nach welchen gefiltert werden kann.
+
+
+
+
+<h2 class="m-portfolioItem-title">Glocke</h2>
+    <h3 class="m-portfolioItem-subtitle"><br></h3>
+    <p>
+        Über Erneuerungen der Seite wird der Nutzer über die Glocke benachrichtigt. Liegt eine Benachrichtigung vor, wird die Glocke weiss. Liegt jedoch keine Benachrichtigung vor so bleibt sie leer.
+
+
+
+
+<h2 class="m-portfolioItem-title">Detailansicht</h2>
+    <h3 class="m-portfolioItem-subtitle"><br></h3>
+    <p>
+        Nachdem der Nutzer sich für eine Card entschieden hat und sich nähere Informationen über das Werk anschauen möchte, gelangt er durch das anklicken auf die Card, zur Detailansicht.
+    </p>
+    <p> Im oberen Drittel der Detailansicht ist das Bild in seiner vollen Größe zu finden. Zur Vollbildansicht des Bildes gelangt der Nutzer durch das Symbol unten rechts. Um das Symbol mit dem Titel zusammen im Vordergrund stehen
+        zu lassen, liegt hinter diesen ein Blur.
+    </p>
+    <p>
+        Die Detailansicht füllt nicht den kompletten Bildschirm. Das hat den Grund, dass der Nutzer, wenn er wieder auf die Seite mit der Timeline möchte, nur auf die etwas dunklere Fläche klickt. Dieser Vorgang wird dem Nutzer leichter fallen, als in einer Ecke
+        nach einem X zu suchen.<br> BEI VOLLBILD IST X !!! aufschreiben
+    </p>
+    <p>
+        Auf der linken Seite der Detailansicht befinden sich die jeweiligen Eigenschaften eines Werkes. Dadurch das diese Eigenschaften durch eine Linie von dem Text getrennt werden, bilden sie eine Einheit.
+    </p>
+    <p>
+        Auch in der Detailansicht kann der Nutzer das Werk speichern/favorisieren.
+        <br>Zudem ist es auch möglich, das Werk weiterzuleiten.
+    </p>
+    <p>Ist der Nutzer mit seiner Maus auf einer Eigenschaft, so nimmt diese Eigenschaft die Farbe Gelb an. Somit wird es dem Nutzer leicht fallen zu sehen, welche Eigenschaft er auswählt.
+    </p>
+
+
+
+<h2 class="m-portfolioItem-title">Padding</h2>
+    <h3 class="m-portfolioItem-subtitle"><br>Fibonacci-Zahlenfolge</h3>
+    <p>Die gewählten Abstände greifen auf die Fibonacci-Zahlenfolge zurück. <br> Diese ist eine unendliche Folge von natürlichen Zahlen, bei der die Summe zweier benachbarter Zahlen die unmittelbar folgende Zahl ergibt. <br> <br> Die
+        einheitlichen Abstände zwischen den einzelnen Elementen, sorgen für eine klare Ordnung, welche den Informationen sowohl Glaubwürdigkeit als auch Vertrauen verleiht.
+    </p>
+    <p>
+        bliblablub natur zu finden... HINZUFÜGEN
+    </p>
+
+
+
+
+<h2 class="m-portfolioItem-title">Typographie</h2>
+    <h3 class="m-portfolioItem-subtitle"><br>IBM Plex Sans</h3>
+    <p> Die vorgegebene Schriftart "IBM Plex Sans" gehört zu den Serifenlosen Schriftarten, die eine größere Klarheit und Erkennbarkeit aufweist, da die einzelnen Buchstaben keine Verzierungen haben. <br> Sie wirkt zudem modern und sachlich.
+        <br>
+        <h3 class="m-portfolioItem-subtitle"><br>Renard-Serie</h4>
+            Zur Auswahl der Schriftgrößen liegt die Renard-Serie vor. Bei dieser wird das Intervall von 1 bis 10 in fünf, zehn, 20 oder 40 Schritten unterteilt. <br> Somit entsteht ein ausgewogenes Design und der Betrachter kann leicht
+            zwischen Überschrift, Text und Unterschrift unterscheiden.
+            <br><br>vielleicht noch zeilenabstand zeilenbreite ?
+    </p>
+
+
+<h3 class="m-portfolioItem-subtitle">Gelb</h3>
+    <p>
+        Die Farbauswahl gehört in einem guten Design zu den wichtigsten zu beachtenden Punkten. Durch die Farbe wird die Aufmerksamkeit der Betrachter auf das Design gelenkt und Emotionen werden erweckt. Die Grundfarbe Gelb gilt als fröhliche, freundliche und
+        heitere Farbe. Im Bezug auf die Stakeholder, ist es wichtig eine Farbe mit solch einer Wirkung zu verwenden. Zudem wird die Farbe von weitem gut erkennbar sein. (hier noch schreiben wegen museum zb?) Zu viel Gelb würde allerdings
+        dazu führen, dass das ganze Design aggressiv und laut wirkt und somit die Betrachter abschreckt.
+    </p>
+
+
+
+<h3 class="m-portfolioItem-subtitle">Orange</h3>
+    <p>
+        Die Sekundärfarbe Orange signalisiert Aufgeschlossenheit und ist eine Symbolfarbe für Optimismus und Lebensfreunde. Die einladende Farbe weckt die Neugier und damit auch die Arbeitsfreude.
+    </p>
+
+
+
+<h2 class="m-portfolioItem-title">CARDS</h2>
+    Für die Darstellung der Werke liegen zwei verschiedene Card-Designs vor. <br> Während auf einer Card nur das Bild und die dazugehörige Jahreszahl angezeigt wird, werden auf der anderen Card nähere Informationen, wie Titel und Icon
+    zum Favorisieren, angezeigt.
+
+    </p><br>
+    <h3 class="m-portfolioItem-subtitle">Slimcards</h3>
+    <p> Wie schon erwähnt besteht diese Card aus einem Bild eines Werkes und der dazugehörigen Jahreszahl. Da sowohl das Bild, als auch die Jahreszahl von gleicher Wichtigkeit sind, wird die gesamte Fläche in zwei geteilt.
+    </p>
+    <h3 class="m-portfolioItem-subtitle">Simplecards</h3>
+    <p> Mit der Simplecard
+    </p>
+
+
+
+
+<h3 class="m-portfolioItem-subtitle">Toast</h3>
+    <p>
+        Farbe = F2F2F2 , xWas macht das warum ist das so wie sehen die aus kann man das essen?
+    </p>
+
+
+
+IPhone : 
+	Smartphones werden von den befragten Experten nur sehr selten zur Recherche eingesetzt. 
+    Sie nutzen diese lediglich, um auf die Schnelle spezifische Gemälde aufzurufen. 
+    Für diese Nutzergruppe benötigt solch eine Version also nur ein stark reduziertes Feature Set. 
+    Jedoch könnte gerade für die Gruppe der Kunstlaien dieses Endgerät eine größere Rolle darstellen (gerade für Schüler / Studenten). 
+    Hier gilt es zu überlegen, ob eine mobile Version sinnvoll wäre und wie man die Informationen, 
+    trotz der stark reduzierten Oberfläche, sinnvoll und übersichtlich präsentieren kann.
+
+
+    Homebildschirm :
+    
+
+
+    Werke von einem bestimmten Jahr:
+
+
+    Detailansicht:
+
+
+    Vollbildansicht:
+
+
+    Gespeichert - Icon:
+
+
+    Gespeicherte Werke :
+
+
+    Suche :
+
+
+    Sidebar :
+
+
+    Filter : 
